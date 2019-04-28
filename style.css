@@ -1,0 +1,150 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;
+}
+.aside{
+    background: url('img/background.jpg');
+    height: 100vh;
+    padding-top: 80px;
+    padding-left:30px;
+    background-position: center center;
+    background-size:cover;
+}
+.profile-img{
+    border-radius:50%;
+}
+.social-icons{
+    text-align: center;
+}
+.social-icons a{
+    color:#212529;
+    padding: 3px;
+}
+.social-icons a i{
+    font-size: 25px;
+    transition: 0.5s;
+}
+.social-icons a:hover{
+    text-decoration:none; 
+}
+.social-icons a:hover i{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.bar{
+    margin-top:50px;
+}
+.bar .bar-link{
+    color:#212529;
+    font-family: 'Raleway';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    transition: 0.5s;
+    border-left:2px solid transparent;
+}
+.bar .bar-link:hover{
+    padding-left:20px;
+    text-decoration: none;
+    transition: 0.5s;
+    border-left:2px solid #212529;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;
+    text-align: justify;
+    color: #888A8C;
+}
+.parrafos, .skills{
+    width:90%;
+    max-width:700px;
+    margin:0 auto;
+}
+.formacion a img{
+    width: 100%;
+}
+.progress{
+ background:#DE5231; 
+ height: 100%;
+ transition: ease 1s;
+ width: 0;
+}
+.progressbar {
+    width: 100%;
+    height: 15px;
+    background: #d7e6ef;
+    border-radius: 5px;
+}
+.caption-progressbar{
+    font-size: 16.5px;
+}
+.progress-caption h4{
+    font-size: 16.5px;
+}
+
+#HTML, #CSS, #Laravel, #PHP, #SQL, #React, #JQuery, #Bootstrap, #JS, #Wordpress{
+    width:0%;
+}
+.card-container{
+    color: #888A8C;
+}
+.card-container .card{
+    border-radius: 0;
+    border:none;
+}
+.card-container:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: #888A8C;
+}
+.card-container:hover .card .card-img-top{
+    filter: blur(2px);
+    transition: .2s;
+}
+.social-network a{
+     margin: 5px;
+     color:black;
+}
+.social-network a i{
+    font-size: 25px;
+    transition: 0.5s;
+}
+.social-network a:hover{
+    text-decoration: none;
+}
+.social-network a:hover i{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea{
+    border:none;
+    border-bottom: 1px solid rgb(182, 182, 182);
+    border-radius: 0;
+}
+.contact-form input::placeholder, .contact-form textarea::placeholder{
+    color:#888A8C;
+    font-size:14px;
+}
+.btn-primary{
+    background:#DE5231; 
+    border: #DE5231; 
+    border-radius: 0;
+    padding:5px 20px;
+    transition: 0.5s;
+}
+.btn-primary:hover{
+    background:#DE5231; 
+    border: #DE5231;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+    .navbar-fixed-top {
+        position: initial !important;
+    }
+}
